@@ -22,11 +22,11 @@ Use the following steps to bring up the container image and launch the Create Fa
 
 5.On the hose node make sure that docker is installed , started , up and running.
 
-5.Run the script to deploy the container for the Data Fabric image:
+6.Run the script to deploy the container for the Data Fabric image:
 
   ./mapr_devsandbox_container_setup.sh 
 
-6.The script brings up the latest Data Fabric version in containerized form. Console messages provide a link to a simple user interface that you can use to login to UI.
+7.The script brings up the latest Data Fabric version in containerized form. Console messages provide a link to a simple user interface that you can use to login to UI.
 
 Documentation Link
 For user documentation, see https://docs.ezmeral.hpe.com/datafabric-customer-managed/home/MapRContainerDevelopers/MapRContainerDevelopersOverview.html
