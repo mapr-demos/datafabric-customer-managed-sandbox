@@ -8,7 +8,7 @@ The development environment script, mapr_devsandbox_container_setup.sh, download
 
 Use the following steps to bring up the container image and launch the Create Fabric interface:
 
-1.Sign in to the seed node host as root or a user that can run sudo commands without being prompted for a password.
+1.Sign in to the sandbox host as root or a user that can run sudo commands without being prompted for a password.
 
 2.Download the mapr_devsandbox_container_setup.sh script from GitHub. For example, download the script in its raw form by using the following wget command:
 
@@ -19,6 +19,8 @@ Use the following steps to bring up the container image and launch the Create Fa
   chmod +x mapr_devsandbox_container_setup.sh 
  
 4.Running the mapr_devsandbox_container_setup.sh script requires sudo privileges.
+
+5.On the hose node make sure that docker is installed , started , up and running.
 
 5.Run the script to deploy the container for the Data Fabric image:
 
