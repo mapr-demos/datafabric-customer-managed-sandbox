@@ -20,7 +20,7 @@ Use the following steps to bring up the container image and launch the Create Fa
  
 4.Running the mapr_devsandbox_container_setup.sh script requires sudo privileges.
 
-5.On the hose node make sure that docker is installed , started , up and running.
+5.On the host node make sure that docker is installed , started , up and running.
 
 6.Run the script to deploy the container for the Data Fabric image:
 
